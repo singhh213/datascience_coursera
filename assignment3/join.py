@@ -15,7 +15,6 @@ def mapper(record):
     
 
 def reducer(key, row):
-    l=len(row)
     order = row[0]
     
     #for all the line items, append to order.
